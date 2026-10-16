@@ -1,0 +1,15 @@
+{
+	"name": "dsh-opencode-argon",
+	"version": "0.1.0",
+	"description": "Native Gemini generateContent adapter plugin for DeepSeek Harness (OpenCode Go gemini-4-argon-contributor).",
+	"type": "module",
+	"main": "./adapter/index.mjs",
+	"exports": {
+		".": "./adapter/index.mjs",
+		"./gemini-client": "./gemini-client.mjs"
+	},
+	"scripts": {
+		"test": "node ./adapter/selftest.mjs"
+	},
+	"license": "MIT"
+}
